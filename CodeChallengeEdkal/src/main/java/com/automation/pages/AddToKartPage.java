@@ -16,8 +16,9 @@ public class AddToKartPage extends BasePage{
 		System.out.println("clicked on Add to Cart");
 	}
 	
-	public void clickOnProductLink(WebDriver driver) {
-		driver.findElement(By.xpath(getReference("ResultPage.productLink"))).click();
+	public void clickOnProductLink(String xpathLink, WebDriver driver) {
+		System.out.println("xpath: "+xpathLink);
+		driver.findElement(By.xpath(xpathLink)).click();
 		System.out.println("clicked on product link.");
 	}
 }

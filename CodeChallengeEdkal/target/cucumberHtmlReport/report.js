@@ -49,21 +49,21 @@ formatter.match({
   "location": "SearchProductStepDef.Open_browser_and_luanch_the_website()"
 });
 formatter.result({
-  "duration": 115588072400,
+  "duration": 40506928399,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchProductStepDef.Enter_the_text_Headphones_in_the_search_box_Hit_enter()"
 });
 formatter.result({
-  "duration": 16047313600,
+  "duration": 13270218500,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchProductStepDef.From_the_results_displayed_on_page1_add_all_the_items_marked_as_Best_seller_to_the_cart()"
 });
 formatter.result({
-  "duration": 106783310400,
+  "duration": 91323932500,
   "status": "passed"
 });
 });
