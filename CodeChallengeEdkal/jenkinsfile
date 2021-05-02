@@ -3,6 +3,7 @@ note {
     stages {
         stage('SCM Checkout') {
             steps {
+                checkout scm
                 echo 'git checkout..'
                 git 'https://github.com/satendrani/CodeChallengeEdkal/new/master/CodeChallengeEdkal'
                 
