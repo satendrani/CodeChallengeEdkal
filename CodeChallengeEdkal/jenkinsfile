@@ -1,0 +1,33 @@
+note {
+    
+    stages {
+        stage('SCM Checkout') {
+            steps {
+                echo 'git checkout..'
+                git 'https://github.com/satendrani/CodeChallengeEdkal/new/master/CodeChallengeEdkal'
+                
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Building..'
+                
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+        stage('Email') {
+            steps {
+                echo 'Sending email....'
+            }
+        }
+    }
+}
